@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 		
 <div id="navbar" class="navbar navbar-default          ace-save-state">
+=======
+		<div id="navbar" class="navbar navbar-default          ace-save-state">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 			<div class="navbar-container ace-save-state" id="navbar-container">
 				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
 					<span class="sr-only">Toggle sidebar</span>
@@ -22,7 +26,11 @@
 
 				<div class="navbar-buttons navbar-header pull-right" role="navigation">
 					<ul class="nav ace-nav">
+<<<<<<< HEAD
 <!--						<li class="grey dropdown-modal">
+=======
+						<li class="grey dropdown-modal">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
 								<i class="ace-icon fa fa-tasks"></i>
 								<span class="badge badge-grey">4</span>
@@ -275,14 +283,22 @@
 									</a>
 								</li>
 							</ul>
+<<<<<<< HEAD
 						</li>-->
+=======
+						</li>
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 
 						<li class="light-blue dropdown-modal">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
 								<img class="nav-user-photo" src="../assets/images/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Welcome,</small>
+<<<<<<< HEAD
 									<%= session.getAttribute("fullname") %>
+=======
+									Jason
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 								</span>
 
 								<i class="ace-icon fa fa-caret-down"></i>
@@ -297,7 +313,11 @@
 								</li>
 
 								<li>
+<<<<<<< HEAD
 									<a href="${baseUrl}user/profile.html">
+=======
+									<a href="profile.html">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 										<i class="ace-icon fa fa-user"></i>
 										Profile
 									</a>
@@ -306,7 +326,11 @@
 								<li class="divider"></li>
 
 								<li>
+<<<<<<< HEAD
 									<a href="${baseUrl}login/logout.html">
+=======
+									<a href="#">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 										<i class="ace-icon fa fa-power-off"></i>
 										Logout
 									</a>

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <%@taglib uri = "http://www.springframework.org/tags/form" prefix = "form"%>
+=======
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -55,7 +58,10 @@
 
 							<div class="position-relative">
 								<div id="login-box" class="login-box visible widget-box no-border">
+<<<<<<< HEAD
                                                                     <div id="ajaxResponse"></div>
+=======
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 									<div class="widget-body">
 										<div class="widget-main">
 											<h4 class="header blue lighter bigger">
@@ -69,14 +75,23 @@
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="email" class="form-control" name="email" placeholder="Email" />
 															<i class="ace-icon fa fa-envelope"></i>
+=======
+															<input type="text" class="form-control" placeholder="Username" />
+															<i class="ace-icon fa fa-user"></i>
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="password" name="password" class="form-control" placeholder="Password" />
+=======
+															<input type="password" class="form-control" placeholder="Password" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-lock"></i>
 														</span>
 													</label>
@@ -108,6 +123,29 @@
 												</fieldset>
 											</form>
 
+<<<<<<< HEAD
+=======
+<!--											<div class="social-or-login center">
+												<span class="bigger-110">Or Login Using</span>
+											</div>
+
+											<div class="space-6"></div>
+
+											<div class="social-login center">
+												<a class="btn btn-primary">
+													<i class="ace-icon fa fa-facebook"></i>
+												</a>
+
+												<a class="btn btn-info">
+													<i class="ace-icon fa fa-twitter"></i>
+												</a>
+
+												<a class="btn btn-danger">
+													<i class="ace-icon fa fa-google-plus"></i>
+												</a>
+											</div>-->
+										</div><!-- /.widget-main -->
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 
 										<div class="toolbar clearfix">
 											<div>
@@ -144,7 +182,11 @@
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="email" name="email" class="form-control" placeholder="Email" />
+=======
+															<input type="email" class="form-control" placeholder="Email" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-envelope"></i>
 														</span>
 													</label>
@@ -189,29 +231,49 @@
 											<div class="space-6"></div>
 											<p> Enter your details to begin: </p>
 
+<<<<<<< HEAD
                                                                                         <form:form method="post" action="#" onSubmit="submitForm('registerform', 'index/adduser.html');return false;" id="registerform">
 												<fieldset>
                                                                                                     <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<form:input type="text" path="fullname" name="fullname" class="form-control" placeholder="Fullname" />
+=======
+											<form>
+												<fieldset>
+                                                                                                    <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="fullname" class="form-control" placeholder="Fullname" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-user"></i>
 														</span>
 													</label>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<form:input path="email" type="email" name="email" class="form-control" placeholder="Email" />
+=======
+															<input type="email" class="form-control" placeholder="Email" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-envelope"></i>
 														</span>
 													</label>
                                                                                                         <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<form:input type="text" path="store_name" name="store_name" class="form-control" placeholder="Store name" />
+=======
+															<input type="text" name="store_name" class="form-control" placeholder="Store name" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-cart-arrow-down"></i>
 														</span>
 													</label>
                                                                                                      <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<form:input type="tel" path="phone_no" name="phone_no" class="form-control" placeholder="Phone Number" />
+=======
+															<input type="tel" name="phone_no" class="form-control" placeholder="Phone Number" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-phone"></i>
 														</span>
 													</label>
@@ -226,14 +288,22 @@
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<form:input type="password" path="password" class="form-control" placeholder="Repeat password" />
+=======
+															<input type="password" class="form-control" placeholder="Repeat password" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-retweet"></i>
 														</span>
 													</label>
                                                                                                    
                                                                                                             <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<form:textarea id="form-field-11" path="contact_address" name="contact_address" class="autosize-transition form-control" placeholder="Contact Address"></form:textarea>
+=======
+															<textarea id="form-field-11" class="autosize-transition form-control" placeholder="Contact Address"></textarea>
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-bank"></i>
 														</span>
                                                                                                               </label>
@@ -253,6 +323,7 @@
 															<span class="bigger-110">Reset</span>
 														</button>
 
+<<<<<<< HEAD
 														<form:button type="submit" class="width-65 pull-right btn btn-sm btn-success" onSubmit="submitForm('registerform', 'index/adduser.html');return false;">
 															<span class="bigger-110">Register</span>
 
@@ -261,6 +332,16 @@
 													</div>
 												</fieldset>
 											</form:form>
+=======
+														<button type="button" class="width-65 pull-right btn btn-sm btn-success">
+															<span class="bigger-110">Register</span>
+
+															<i class="ace-icon fa fa-arrow-right icon-on-right"></i>
+														</button>
+													</div>
+												</fieldset>
+											</form>
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 										</div>
 
 										<div class="toolbar center">
@@ -298,7 +379,10 @@
 		<!--[if !IE]> -->
 		<script src="../assets/js/jquery-2.1.4.min.js"></script>
                 <script src="../assets/js/autosize.min.js"></script>
+<<<<<<< HEAD
                 <script src="../functions/functions.js"></script>
+=======
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 
 		<!-- <![endif]-->
 

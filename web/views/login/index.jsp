@@ -51,10 +51,16 @@
 							</div>
 
 							<div class="space-6"></div>
+<<<<<<< HEAD
                                                          <div id="ajaxResponse"></div>
 							<div class="position-relative">
 								<div id="login-box" class="login-box visible widget-box no-border">
                                                                   
+=======
+
+							<div class="position-relative">
+								<div id="login-box" class="login-box visible widget-box no-border">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 									<div class="widget-body">
 										<div class="widget-main">
 											<h4 class="header blue lighter bigger">
@@ -64,19 +70,31 @@
 
 											<div class="space-6"></div>
 
+<<<<<<< HEAD
 											<form  method="post" onSubmit="submitForm('loginform', 'singin.html');return false;" id="loginform" action="#">
 											<input type='hidden' name='redirectUrl' value='${redirectUrl}' />	
                                                                                             <fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<input type="email" name="email" class="form-control" placeholder="Email" />
+=======
+											<form>
+												<fieldset>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" class="form-control" placeholder="Username" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="password" name="password" class="form-control" placeholder="Password" />
+=======
+															<input type="password" class="form-control" placeholder="Password" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-lock"></i>
 														</span>
 													</label>
@@ -84,11 +102,19 @@
 													<div class="space"></div>
 
 													<div class="clearfix">
+<<<<<<< HEAD
+=======
+<!--														<label class="inline">
+															<input type="checkbox" class="ace" />
+															<span class="lbl"> Remember Me</span>
+														</label>-->
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
                                                                                                                    <label class="inline">
 															<input type="radio"  name="user_type" checked="true" value="staff" class="ace" />
 															<span class="lbl"> Store Staff</span>
 														</label>
                                                                                                             <label class="inline">
+<<<<<<< HEAD
 															<input type="radio" name="user_type" value="user" class="ace" />
 															<span class="lbl"> Store Owner</span>
 														</label>
@@ -98,6 +124,14 @@
 														</label>
                                                                                                                 <br/>
 														<button type="submit" class="width-35 pull-right btn btn-sm btn-primary" onSubmit="submitForm('loginform', 'singin.html');return false;">
+=======
+															<input type="radio" name="user_type" value="owner" class="ace" />
+															<span class="lbl"> Store Owner</span>
+														</label>
+                                                                                                           
+                                                                                                                <br/>
+														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-key"></i>
 															<span class="bigger-110">Login</span>
 														</button>
@@ -107,7 +141,29 @@
 												</fieldset>
 											</form>
 
+<<<<<<< HEAD
 
+=======
+<!--											<div class="social-or-login center">
+												<span class="bigger-110">Or Login Using</span>
+											</div>
+
+											<div class="space-6"></div>
+
+											<div class="social-login center">
+												<a class="btn btn-primary">
+													<i class="ace-icon fa fa-facebook"></i>
+												</a>
+
+												<a class="btn btn-info">
+													<i class="ace-icon fa fa-twitter"></i>
+												</a>
+
+												<a class="btn btn-danger">
+													<i class="ace-icon fa fa-google-plus"></i>
+												</a>
+											</div>-->
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 										</div><!-- /.widget-main -->
 
 										<div class="toolbar clearfix">
@@ -141,12 +197,20 @@
 												Enter your email and to receive instructions
 											</p>
 
+<<<<<<< HEAD
 											<form method="post" onSubmit="submitForm('forgotpassword', 'forgotpassword.html');return false;" id="forgotpassword" action="#">
 											
                                                                                             <fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<input type="email" name="email" class="form-control" placeholder="Email" />
+=======
+											<form>
+												<fieldset>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="email" class="form-control" placeholder="Email" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-envelope"></i>
 														</span>
 													</label>
@@ -157,6 +221,7 @@
 															<span class="lbl"> Store Staff</span>
 														</label>
                                                                                                             <label class="inline">
+<<<<<<< HEAD
 															<input type="radio" name="user_type" value="user" class="ace" />
 															<span class="lbl"> Store Owner</span>
 														</label>
@@ -167,6 +232,14 @@
                                                                                                            
                                                                                                                 <br/>
 														<button type="submit" onSubmit="submitForm('forgotpassword', 'forgotpassword.html');return false;" class="width-35 pull-right btn btn-sm btn-danger">
+=======
+															<input type="radio" name="user_type" value="owner" class="ace" />
+															<span class="lbl"> Store Owner</span>
+														</label>
+                                                                                                           
+                                                                                                                <br/>
+														<button type="button" class="width-35 pull-right btn btn-sm btn-danger">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-lightbulb-o"></i>
 															<span class="bigger-110">Send Me!</span>
 														</button>
@@ -185,7 +258,10 @@
 								</div><!-- /.forgot-box -->
 
 								<div id="signup-box" class="signup-box widget-box no-border">
+<<<<<<< HEAD
                                                                    
+=======
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 									<div class="widget-body">
 										<div class="widget-main">
 											<h4 class="header green lighter bigger">
@@ -196,29 +272,49 @@
 											<div class="space-6"></div>
 											<p> Enter your details to begin: </p>
 
+<<<<<<< HEAD
 											<form method="post" onSubmit="submitForm('registerform', 'adduser.html');return false;" id="registerform" action="#">
 												<fieldset>
                                                                                                     <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<input type="text" name="fullname" required class="form-control" placeholder="Fullname" />
+=======
+											<form>
+												<fieldset>
+                                                                                                    <label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="fullname" class="form-control" placeholder="Fullname" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-user"></i>
 														</span>
 													</label>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="email" class="form-control" required name="email" placeholder="Email" />
+=======
+															<input type="email" class="form-control" placeholder="Email" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-envelope"></i>
 														</span>
 													</label>
                                                                                                         <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="text" name="store_name" required class="form-control" placeholder="Store name" />
+=======
+															<input type="text" name="store_name" class="form-control" placeholder="Store name" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-cart-arrow-down"></i>
 														</span>
 													</label>
                                                                                                      <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="tel" name="phone_no" required class="form-control" placeholder="Phone Number" />
+=======
+															<input type="tel" name="phone_no" class="form-control" placeholder="Phone Number" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-phone"></i>
 														</span>
 													</label>
@@ -226,25 +322,47 @@
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="password" name="password" required class="form-control" placeholder="Password" />
+=======
+															<input type="password" class="form-control" placeholder="Password" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-lock"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<input type="password" name="confirm_password" required class="form-control" placeholder="Repeat password" />
+=======
+															<input type="password" class="form-control" placeholder="Repeat password" />
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<i class="ace-icon fa fa-retweet"></i>
 														</span>
 													</label>
                                                                                                    
                                                                                                             <label class="block clearfix">
 														<span class="block input-icon input-icon-right">
+<<<<<<< HEAD
 															<textarea id="form-field-11" class="autosize-transition form-control" required name="contact_address" placeholder="Contact Address"></textarea>
 															<i class="ace-icon fa fa-bank"></i>
 														</span>
                                                                                                               </label>
 													
+=======
+															<textarea id="form-field-11" class="autosize-transition form-control" placeholder="Contact Address"></textarea>
+															<i class="ace-icon fa fa-bank"></i>
+														</span>
+                                                                                                              </label>
+													<label class="block">
+														<input type="checkbox" class="ace" />
+														<span class="lbl">
+															I accept the
+															<a href="#">User Agreement</a>
+														</span>
+													</label>
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 
 													<div class="space-24"></div>
 
@@ -254,7 +372,11 @@
 															<span class="bigger-110">Reset</span>
 														</button>
 
+<<<<<<< HEAD
 														<button onclick="submitForm('registerform', 'adduser.html');return false;" type="submit" class="width-65 pull-right btn btn-sm btn-success" onSubmit="submitForm('registerform', 'index/adduser.html');return false;">
+=======
+														<button type="button" class="width-65 pull-right btn btn-sm btn-success">
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 															<span class="bigger-110">Register</span>
 
 															<i class="ace-icon fa fa-arrow-right icon-on-right"></i>
@@ -299,7 +421,10 @@
 		<!--[if !IE]> -->
 		<script src="../assets/js/jquery-2.1.4.min.js"></script>
                 <script src="../assets/js/autosize.min.js"></script>
+<<<<<<< HEAD
                  <script src="../functions/functions.js"></script>
+=======
+>>>>>>> 722dac123665b8505952013f6722c2935e6991f1
 
 		<!-- <![endif]-->
 
